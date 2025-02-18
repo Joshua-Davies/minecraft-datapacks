@@ -1,0 +1,24 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+      "crafted_diamond": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "dirt_to_diamond:dirt_to_diamond"
+        }
+      }
+    },
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond",
+            "id": "minecraft:diamond"
+        },
+      "title": "This Feels Like Cheating...",
+      "description": "You will never find out how to craft a diamond",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    }
+  }
+  
